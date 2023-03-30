@@ -100,12 +100,17 @@ git clone https://github.com/aspectron/kdx.git
 
 16. Install KDX
 ```
-cd kdx && npm install && emanate --local-binaries
+cd kdx && npm install
+```
+
+17. Install kaspad binaries
+```
+emanate --local-binaries
 ```
 
 ---
 
-17. Run KDX
+18. Run KDX
 ```
 nw . 
 ```
